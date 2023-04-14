@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "getProduct",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SatyamRaj/CalProduct.sol": "CalProduct"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SatyamRaj/CalProduct.sol": {
+			"keccak256": "0xb30e6565f886ba6d2f5fb127fa2acab179a6301c0eb533b294f7e2f1f485bb27",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3bbe9287ce34c874b24b81ad3ddb05a7c99cdfc15e14fc0ff66d0cb4f953b03e",
+				"dweb:/ipfs/Qmaps6oZ4R8pnM3Qg8oAiUNmwLFmfqYme2kU2NCnaQ2DtF"
+			]
+		}
+	},
+	"version": 1
+}
