@@ -1,4 +1,8 @@
 // SPDX-License-Identifier: MIT
+
+
+// Write a programm in solidity to get the weekdays 
+
 pragma solidity ^0.8.0;
 
 contract basic{
@@ -12,7 +16,7 @@ contract basic{
         saturday,
         sunday // will return 6 as output
     }
-    
+
     weekday choice;
 
     weekday defaultvalue = weekday.sunday;

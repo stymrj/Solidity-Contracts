@@ -7,25 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getchoice",
+				"name": "getvalue",
 				"outputs": [
 					{
-						"internalType": "enum basic.weekday",
+						"internalType": "string",
 						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getdefault",
-				"outputs": [
-					{
-						"internalType": "enum basic.weekday",
-						"name": "",
-						"type": "uint8"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -52,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SatyamRaj/basic.sol": "basic"
+			"SatyamRaj/structure.sol": "structure"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -66,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SatyamRaj/basic.sol": {
-			"keccak256": "0x61613db3321b43fe3a4b0eee02bf016bc1fdaad26bf4fde0788860d01b8b2a9a",
+		"SatyamRaj/structure.sol": {
+			"keccak256": "0xb4363e61e17bc27418279e98af8abdfe52bd1ae32fde90a56b7d74e915e59613",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://430af5ba30b60b189e46958f28099335bc7c9261b4fb6e03b7aaf40f6660fc1a",
-				"dweb:/ipfs/QmeMxUB4rSpdaDY2iVV9GnUHANfZYvGKhrCpTqCdDdKiVg"
+				"bzz-raw://3f6766d3b860b7316257c63c48abc20a9f4077f8f309c9f064ec2423d823e0d7",
+				"dweb:/ipfs/QmSMzEEF56wzRHENYtRMYnCP7kWoNReYJu6GTewXX4F4ZH"
 			]
 		}
 	},
