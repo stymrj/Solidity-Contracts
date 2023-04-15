@@ -6,7 +6,7 @@
 
    pragma solidity ^0.8.0;
 
-    contract CalProduct{
+    contract DigitsProduct{
     
     function getProduct(uint num) public pure returns (uint ){
         uint ans = 1;
